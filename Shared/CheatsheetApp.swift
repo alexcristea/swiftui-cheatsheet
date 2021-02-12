@@ -4,7 +4,7 @@ import SwiftUI
 struct CheatsheetApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TopicsListView()
         }
     }
 }
