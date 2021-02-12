@@ -92,22 +92,22 @@ struct TopicsListView: View {
                 }
                 .listStyle(SidebarListStyle())
                 .navigationTitle("Cheatsheet")
-
             #else
                 List(topics, children: \.children) { topic in
                     TopicLinkView(topic: topic)
                 }
                 .listStyle(InsetGroupedListStyle())
-                .navigationBarTitleDisplayMode(.automatic)
                 .navigationTitle("Cheatsheet")
             #endif
 
         }
+
     }
 }
 
 struct TopicsListView_Previews: PreviewProvider {
     static var previews: some View {
         TopicsListView()
+
     }
 }

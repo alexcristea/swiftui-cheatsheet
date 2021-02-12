@@ -36,7 +36,7 @@ struct TextFieldTopicView: View {
                 }
                 .padding(.all, 10)
 
-                .autocapitalization(.none)
+                //                .autocapitalization(.none)e
                 .disableAutocorrection(true)
                 .border(Color.secondary)
                 .background(isEditing ? Color.yellow.opacity(0.25) : Color.clear)
@@ -66,6 +66,10 @@ struct TextFieldTopicView: View {
 
 struct TextFieldTopicView_Previews: PreviewProvider {
     static var previews: some View {
-        TextFieldTopicView()
+        NavigationView {
+            TextFieldTopicView()
+                .navigationTitle("Texts")
+                
+        }
     }
 }

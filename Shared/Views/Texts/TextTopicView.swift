@@ -7,7 +7,9 @@ struct TextTopicView: View {
     }
     
     var body: some View {
+        
         VStack(alignment: .leading) {
+            InfoBox("Show case the system fonts large to small.")
             VStack(alignment: .leading) {
                 Text("Large title")
                     .font(.largeTitle)

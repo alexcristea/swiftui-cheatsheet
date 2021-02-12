@@ -18,6 +18,8 @@
 		FA18003D25D6B66200316DDE /* TextTopicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA18003B25D6B66200316DDE /* TextTopicView.swift */; };
 		FAAE7A9A25D6C44400089A76 /* TextFieldTopicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAE7A9925D6C44400089A76 /* TextFieldTopicView.swift */; };
 		FAAE7A9B25D6C44400089A76 /* TextFieldTopicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAE7A9925D6C44400089A76 /* TextFieldTopicView.swift */; };
+		FAC5927625D71D7100D6F331 /* InfoBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC5927525D71D7100D6F331 /* InfoBox.swift */; };
+		FAC5927725D71D7100D6F331 /* InfoBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC5927525D71D7100D6F331 /* InfoBox.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,7 @@
 		FA18FFFE25D698E900316DDE /* TopicsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicsListView.swift; sourceTree = "<group>"; };
 		FA18FFFF25D698EC00316DDE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAAE7A9925D6C44400089A76 /* TextFieldTopicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldTopicView.swift; sourceTree = "<group>"; };
+		FAC5927525D71D7100D6F331 /* InfoBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoBox.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,7 @@
 			isa = PBXGroup;
 			children = (
 				FA18003025D6B60800316DDE /* Views */,
+				FAC5927525D71D7100D6F331 /* InfoBox.swift */,
 				FA18FFFD25D698E900316DDE /* CheatsheetApp.swift */,
 				FA18FFFE25D698E900316DDE /* TopicsListView.swift */,
 				FA18FFFF25D698EC00316DDE /* Assets.xcassets */,
@@ -217,6 +221,7 @@
 			files = (
 				FA18001225D698EC00316DDE /* TopicsListView.swift in Sources */,
 				FA18001025D698EC00316DDE /* CheatsheetApp.swift in Sources */,
+				FAC5927625D71D7100D6F331 /* InfoBox.swift in Sources */,
 				FAAE7A9A25D6C44400089A76 /* TextFieldTopicView.swift in Sources */,
 				FA18003C25D6B66200316DDE /* TextTopicView.swift in Sources */,
 			);
@@ -228,6 +233,7 @@
 			files = (
 				FA18001325D698EC00316DDE /* TopicsListView.swift in Sources */,
 				FA18001125D698EC00316DDE /* CheatsheetApp.swift in Sources */,
+				FAC5927725D71D7100D6F331 /* InfoBox.swift in Sources */,
 				FAAE7A9B25D6C44400089A76 /* TextFieldTopicView.swift in Sources */,
 				FA18003D25D6B66200316DDE /* TextTopicView.swift in Sources */,
 			);
