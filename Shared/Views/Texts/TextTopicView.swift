@@ -1,13 +1,7 @@
-//
-//  TextTopicView.swift
-//  SwiftUI Cheatsheet
-//
-//  Created by Alex Cristea on 12.02.2021.
-//
-
 import SwiftUI
 
 struct TextTopicView: View {
+    
     static func make() -> AnyView {
         AnyView(erasing: self.init())
     }

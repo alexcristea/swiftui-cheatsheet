@@ -46,7 +46,7 @@ struct TopicsListView: View {
             "Texts", icon: "textformat.abc",
             children: [
                 Topic("Text", icon: "textformat.abc", destination: TextTopicView.make()),
-                Topic("Text Field", icon: "textbox"),
+                Topic("Text Field", icon: "textbox", destination: TextFieldTopicView.make()),
                 Topic("Text Editor", icon: "text.cursor"),
                 Topic("Secure Field", icon: "rectangle.and.pencil.and.ellipsis"),
             ]),
@@ -98,6 +98,7 @@ struct TopicsListView: View {
                     TopicLinkView(topic: topic)
                 }
                 .listStyle(InsetGroupedListStyle())
+                .navigationBarTitleDisplayMode(.automatic)
                 .navigationTitle("Cheatsheet")
             #endif
 
