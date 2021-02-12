@@ -7,26 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FA2E353225D68FA300352044 /* CheatsheetApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2E353125D68FA300352044 /* CheatsheetApp.swift */; };
-		FA2E353425D68FA300352044 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2E353325D68FA300352044 /* ContentView.swift */; };
-		FA2E353625D68FA400352044 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA2E353525D68FA400352044 /* Assets.xcassets */; };
-		FA2E353925D68FA400352044 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA2E353825D68FA400352044 /* Preview Assets.xcassets */; };
-		FA2E354325D690E600352044 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = FA2E354225D690E600352044 /* README.md */; };
+		FA18001025D698EC00316DDE /* CheatsheetApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA18FFFD25D698E900316DDE /* CheatsheetApp.swift */; };
+		FA18001125D698EC00316DDE /* CheatsheetApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA18FFFD25D698E900316DDE /* CheatsheetApp.swift */; };
+		FA18001225D698EC00316DDE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA18FFFE25D698E900316DDE /* ContentView.swift */; };
+		FA18001325D698EC00316DDE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA18FFFE25D698E900316DDE /* ContentView.swift */; };
+		FA18001425D698EC00316DDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA18FFFF25D698EC00316DDE /* Assets.xcassets */; };
+		FA18001525D698EC00316DDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA18FFFF25D698EC00316DDE /* Assets.xcassets */; };
+		FA18002925D699C100316DDE /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = FA18002825D699C100316DDE /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		FA2E352E25D68FA200352044 /* SwiftUI Cheatsheet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI Cheatsheet.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FA2E353125D68FA300352044 /* CheatsheetApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheatsheetApp.swift; sourceTree = "<group>"; };
-		FA2E353325D68FA300352044 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		FA2E353525D68FA400352044 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		FA2E353825D68FA400352044 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		FA2E353A25D68FA400352044 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FA2E354225D690E600352044 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		FA2E354525D690FB00352044 /* Cheatsheet.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Cheatsheet.entitlements; sourceTree = "<group>"; };
+		FA18000425D698EC00316DDE /* SwiftUI Cheatsheet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI Cheatsheet.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA18000725D698EC00316DDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA18000C25D698EC00316DDE /* SwiftUI Cheatsheet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI Cheatsheet.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA18000E25D698EC00316DDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA18000F25D698EC00316DDE /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		FA18002825D699C100316DDE /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		FA18FFFD25D698E900316DDE /* CheatsheetApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheatsheetApp.swift; sourceTree = "<group>"; };
+		FA18FFFE25D698E900316DDE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FA18FFFF25D698EC00316DDE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		FA2E352B25D68FA200352044 /* Frameworks */ = {
+		FA18000125D698EC00316DDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA18000925D698EC00316DDE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -36,79 +46,108 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		FA2E352525D68FA200352044 = {
+		FA18000525D698EC00316DDE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FA2E353025D68FA200352044 /* SwiftUI Cheatsheet */,
-				FA2E352F25D68FA200352044 /* Products */,
-				FA2E354225D690E600352044 /* README.md */,
-			);
-			sourceTree = "<group>";
-		};
-		FA2E352F25D68FA200352044 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				FA2E352E25D68FA200352044 /* SwiftUI Cheatsheet.app */,
+				FA18000425D698EC00316DDE /* SwiftUI Cheatsheet.app */,
+				FA18000C25D698EC00316DDE /* SwiftUI Cheatsheet.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		FA2E353025D68FA200352044 /* SwiftUI Cheatsheet */ = {
+		FA18000625D698EC00316DDE /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				FA2E353125D68FA300352044 /* CheatsheetApp.swift */,
-				FA2E353325D68FA300352044 /* ContentView.swift */,
-				FA2E353525D68FA400352044 /* Assets.xcassets */,
-				FA2E354525D690FB00352044 /* Cheatsheet.entitlements */,
-				FA2E353A25D68FA400352044 /* Info.plist */,
-				FA2E353725D68FA400352044 /* Preview Content */,
+				FA18000725D698EC00316DDE /* Info.plist */,
 			);
-			path = "SwiftUI Cheatsheet";
+			path = iOS;
 			sourceTree = "<group>";
 		};
-		FA2E353725D68FA400352044 /* Preview Content */ = {
+		FA18000D25D698EC00316DDE /* macOS */ = {
 			isa = PBXGroup;
 			children = (
-				FA2E353825D68FA400352044 /* Preview Assets.xcassets */,
+				FA18000E25D698EC00316DDE /* Info.plist */,
+				FA18000F25D698EC00316DDE /* macOS.entitlements */,
 			);
-			path = "Preview Content";
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		FA18FFF725D698E900316DDE = {
+			isa = PBXGroup;
+			children = (
+				FA18FFFC25D698E900316DDE /* Shared */,
+				FA18000625D698EC00316DDE /* iOS */,
+				FA18000D25D698EC00316DDE /* macOS */,
+				FA18000525D698EC00316DDE /* Products */,
+				FA18002825D699C100316DDE /* README.md */,
+			);
+			sourceTree = "<group>";
+		};
+		FA18FFFC25D698E900316DDE /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				FA18FFFD25D698E900316DDE /* CheatsheetApp.swift */,
+				FA18FFFE25D698E900316DDE /* ContentView.swift */,
+				FA18FFFF25D698EC00316DDE /* Assets.xcassets */,
+			);
+			path = Shared;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FA2E352D25D68FA200352044 /* SwiftUI Cheatsheet */ = {
+		FA18000325D698EC00316DDE /* SwiftUI Cheatsheet (iOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FA2E353D25D68FA400352044 /* Build configuration list for PBXNativeTarget "SwiftUI Cheatsheet" */;
+			buildConfigurationList = FA18001825D698EC00316DDE /* Build configuration list for PBXNativeTarget "SwiftUI Cheatsheet (iOS)" */;
 			buildPhases = (
-				FA2E352A25D68FA200352044 /* Sources */,
-				FA2E352B25D68FA200352044 /* Frameworks */,
-				FA2E352C25D68FA200352044 /* Resources */,
+				FA18000025D698EC00316DDE /* Sources */,
+				FA18000125D698EC00316DDE /* Frameworks */,
+				FA18000225D698EC00316DDE /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "SwiftUI Cheatsheet";
-			productName = "SwiftUI Cheatsheet";
-			productReference = FA2E352E25D68FA200352044 /* SwiftUI Cheatsheet.app */;
+			name = "SwiftUI Cheatsheet (iOS)";
+			productName = "SwiftUI Cheatsheet (iOS)";
+			productReference = FA18000425D698EC00316DDE /* SwiftUI Cheatsheet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA18000B25D698EC00316DDE /* SwiftUI Cheatsheet (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA18001B25D698EC00316DDE /* Build configuration list for PBXNativeTarget "SwiftUI Cheatsheet (macOS)" */;
+			buildPhases = (
+				FA18000825D698EC00316DDE /* Sources */,
+				FA18000925D698EC00316DDE /* Frameworks */,
+				FA18000A25D698EC00316DDE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SwiftUI Cheatsheet (macOS)";
+			productName = "SwiftUI Cheatsheet (macOS)";
+			productReference = FA18000C25D698EC00316DDE /* SwiftUI Cheatsheet.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		FA2E352625D68FA200352044 /* Project object */ = {
+		FA18FFF825D698E900316DDE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1240;
 				TargetAttributes = {
-					FA2E352D25D68FA200352044 = {
+					FA18000325D698EC00316DDE = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					FA18000B25D698EC00316DDE = {
 						CreatedOnToolsVersion = 12.4;
 					};
 				};
 			};
-			buildConfigurationList = FA2E352925D68FA200352044 /* Build configuration list for PBXProject "SwiftUI Cheatsheet" */;
+			buildConfigurationList = FA18FFFB25D698E900316DDE /* Build configuration list for PBXProject "SwiftUI Cheatsheet" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -116,43 +155,60 @@
 				en,
 				Base,
 			);
-			mainGroup = FA2E352525D68FA200352044;
-			productRefGroup = FA2E352F25D68FA200352044 /* Products */;
+			mainGroup = FA18FFF725D698E900316DDE;
+			productRefGroup = FA18000525D698EC00316DDE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FA2E352D25D68FA200352044 /* SwiftUI Cheatsheet */,
+				FA18000325D698EC00316DDE /* SwiftUI Cheatsheet (iOS) */,
+				FA18000B25D698EC00316DDE /* SwiftUI Cheatsheet (macOS) */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		FA2E352C25D68FA200352044 /* Resources */ = {
+		FA18000225D698EC00316DDE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA2E354325D690E600352044 /* README.md in Resources */,
-				FA2E353925D68FA400352044 /* Preview Assets.xcassets in Resources */,
-				FA2E353625D68FA400352044 /* Assets.xcassets in Resources */,
+				FA18002925D699C100316DDE /* README.md in Resources */,
+				FA18001425D698EC00316DDE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA18000A25D698EC00316DDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA18001525D698EC00316DDE /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		FA2E352A25D68FA200352044 /* Sources */ = {
+		FA18000025D698EC00316DDE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA2E353425D68FA300352044 /* ContentView.swift in Sources */,
-				FA2E353225D68FA300352044 /* CheatsheetApp.swift in Sources */,
+				FA18001225D698EC00316DDE /* ContentView.swift in Sources */,
+				FA18001025D698EC00316DDE /* CheatsheetApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA18000825D698EC00316DDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA18001325D698EC00316DDE /* ContentView.swift in Sources */,
+				FA18001125D698EC00316DDE /* CheatsheetApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		FA2E353B25D68FA400352044 /* Debug */ = {
+		FA18001625D698EC00316DDE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -203,17 +259,15 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		FA2E353C25D68FA400352044 /* Release */ = {
+		FA18001725D698EC00316DDE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -258,86 +312,137 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
-				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		FA18001925D698EC00316DDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T6H49879HU;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alexcristea.swiftui-cheatsheet";
+				PRODUCT_NAME = "SwiftUI Cheatsheet";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA18001A25D698EC00316DDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T6H49879HU;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alexcristea.swiftui-cheatsheet";
+				PRODUCT_NAME = "SwiftUI Cheatsheet";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		FA2E353E25D68FA400352044 /* Debug */ = {
+		FA18001C25D698EC00316DDE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "SwiftUI Cheatsheet/Cheatsheet.entitlements";
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI Cheatsheet/Preview Content\"";
+				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = T6H49879HU;
+				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "SwiftUI Cheatsheet/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				INFOPLIST_FILE = macOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/Frameworks",
+					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.alexcristea.swiftui-cheatsheet";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SUPPORTS_MACCATALYST = YES;
+				PRODUCT_NAME = "SwiftUI Cheatsheet";
+				SDKROOT = macosx;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,6";
 			};
 			name = Debug;
 		};
-		FA2E353F25D68FA400352044 /* Release */ = {
+		FA18001D25D698EC00316DDE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "SwiftUI Cheatsheet/Cheatsheet.entitlements";
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI Cheatsheet/Preview Content\"";
+				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = T6H49879HU;
+				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "SwiftUI Cheatsheet/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				INFOPLIST_FILE = macOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/Frameworks",
+					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.alexcristea.swiftui-cheatsheet";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SUPPORTS_MACCATALYST = YES;
+				PRODUCT_NAME = "SwiftUI Cheatsheet";
+				SDKROOT = macosx;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,6";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FA2E352925D68FA200352044 /* Build configuration list for PBXProject "SwiftUI Cheatsheet" */ = {
+		FA18001825D698EC00316DDE /* Build configuration list for PBXNativeTarget "SwiftUI Cheatsheet (iOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FA2E353B25D68FA400352044 /* Debug */,
-				FA2E353C25D68FA400352044 /* Release */,
+				FA18001925D698EC00316DDE /* Debug */,
+				FA18001A25D698EC00316DDE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FA2E353D25D68FA400352044 /* Build configuration list for PBXNativeTarget "SwiftUI Cheatsheet" */ = {
+		FA18001B25D698EC00316DDE /* Build configuration list for PBXNativeTarget "SwiftUI Cheatsheet (macOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FA2E353E25D68FA400352044 /* Debug */,
-				FA2E353F25D68FA400352044 /* Release */,
+				FA18001C25D698EC00316DDE /* Debug */,
+				FA18001D25D698EC00316DDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA18FFFB25D698E900316DDE /* Build configuration list for PBXProject "SwiftUI Cheatsheet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA18001625D698EC00316DDE /* Debug */,
+				FA18001725D698EC00316DDE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = FA2E352625D68FA200352044 /* Project object */;
+	rootObject = FA18FFF825D698E900316DDE /* Project object */;
 }
