@@ -47,7 +47,6 @@ struct TextTopicView: View {
             Spacer()
         }
         .padding()
-        .navigationTitle("Texts")
     }
 }
 

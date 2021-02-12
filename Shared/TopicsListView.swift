@@ -14,24 +14,22 @@ struct Topic: Identifiable {
 
     var children: [Topic]?
     var destination: AnyView?
-    
-    init(_ title: String, icon: String, children: [Topic]? = nil, destination: AnyView? = nil){
-        
+
+    init(_ title: String, icon: String, children: [Topic]? = nil, destination: AnyView? = nil) {
         self.title = title
         self.icon = icon
         self.children = children
         self.destination = destination
-        
     }
 }
 
 struct TopicLinkView: View {
-    
+
     var topic: Topic
-    
+
     var body: some View {
         if let destination = topic.destination {
-            NavigationLink(destination: destination) {
+            NavigationLink(destination: destination.navigationTitle(topic.title)) {
                 Label(topic.title, systemImage: topic.icon)
             }
         } else {
