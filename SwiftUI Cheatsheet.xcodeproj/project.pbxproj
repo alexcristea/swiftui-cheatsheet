@@ -11,6 +11,7 @@
 		FA2E353425D68FA300352044 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2E353325D68FA300352044 /* ContentView.swift */; };
 		FA2E353625D68FA400352044 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA2E353525D68FA400352044 /* Assets.xcassets */; };
 		FA2E353925D68FA400352044 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA2E353825D68FA400352044 /* Preview Assets.xcassets */; };
+		FA2E354325D690E600352044 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = FA2E354225D690E600352044 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,8 @@
 		FA2E353525D68FA400352044 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA2E353825D68FA400352044 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FA2E353A25D68FA400352044 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA2E354225D690E600352044 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		FA2E354525D690FB00352044 /* SwiftUI Cheatsheet.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "SwiftUI Cheatsheet.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +41,7 @@
 			children = (
 				FA2E353025D68FA200352044 /* SwiftUI Cheatsheet */,
 				FA2E352F25D68FA200352044 /* Products */,
+				FA2E354225D690E600352044 /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -52,6 +56,7 @@
 		FA2E353025D68FA200352044 /* SwiftUI Cheatsheet */ = {
 			isa = PBXGroup;
 			children = (
+				FA2E354525D690FB00352044 /* SwiftUI Cheatsheet.entitlements */,
 				FA2E353125D68FA300352044 /* SwiftUI_CheatsheetApp.swift */,
 				FA2E353325D68FA300352044 /* ContentView.swift */,
 				FA2E353525D68FA400352044 /* Assets.xcassets */,
@@ -126,6 +131,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA2E354325D690E600352044 /* README.md in Resources */,
 				FA2E353925D68FA400352044 /* Preview Assets.xcassets in Resources */,
 				FA2E353625D68FA400352044 /* Assets.xcassets in Resources */,
 			);
@@ -267,6 +273,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "SwiftUI Cheatsheet/SwiftUI Cheatsheet.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI Cheatsheet/Preview Content\"";
 				DEVELOPMENT_TEAM = T6H49879HU;
@@ -277,10 +284,11 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.alexcristea.SwiftUI-Cheatsheet";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alexcristea.swiftui-cheatsheet";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = "1,2,6";
 			};
 			name = Debug;
 		};
@@ -289,6 +297,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "SwiftUI Cheatsheet/SwiftUI Cheatsheet.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI Cheatsheet/Preview Content\"";
 				DEVELOPMENT_TEAM = T6H49879HU;
@@ -299,10 +308,11 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.alexcristea.SwiftUI-Cheatsheet";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alexcristea.swiftui-cheatsheet";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = "1,2,6";
 			};
 			name = Release;
 		};
