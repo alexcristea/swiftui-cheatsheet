@@ -11,7 +11,33 @@ struct Topic: Identifiable {
     var id = UUID()
     var title: String
     var icon: String
+
     var children: [Topic]?
+    var destination: AnyView?
+    
+    init(_ title: String, icon: String, children: [Topic]? = nil, destination: AnyView? = nil){
+        
+        self.title = title
+        self.icon = icon
+        self.children = children
+        self.destination = destination
+        
+    }
+}
+
+struct TopicLinkView: View {
+    
+    var topic: Topic
+    
+    var body: some View {
+        if let destination = topic.destination {
+            NavigationLink(destination: destination) {
+                Label(topic.title, systemImage: topic.icon)
+            }
+        } else {
+            Label(topic.title, systemImage: topic.icon)
+        }
+    }
 }
 
 struct TopicsListView: View {
@@ -19,44 +45,44 @@ struct TopicsListView: View {
 
     var topics = [
         Topic(
-            title: "Texts", icon: "textformat.abc",
+            "Texts", icon: "textformat.abc",
             children: [
-                Topic(title: "Text", icon: "textformat.abc"),
-                Topic(title: "Text Field", icon: "textbox"),
-                Topic(title: "Text Editor", icon: "text.cursor"),
-                Topic(title: "Secure Field", icon: "rectangle.and.pencil.and.ellipsis"),
+                Topic("Text", icon: "textformat.abc", destination: TextTopicView.make()),
+                Topic("Text Field", icon: "textbox"),
+                Topic("Text Editor", icon: "text.cursor"),
+                Topic("Secure Field", icon: "rectangle.and.pencil.and.ellipsis"),
             ]),
-        Topic(title: "Images", icon: "photo"),
+        Topic("Images", icon: "photo"),
         Topic(
-            title: "Buttons", icon: "plus.app.fill",
+            "Buttons", icon: "plus.app.fill",
             children: [
-                Topic(title: "Button", icon: "plus.app"),
-                Topic(title: "Edit Button", icon: "square.and.pencil"),
-                Topic(title: "Paste Button", icon: "doc.on.clipboard.fill"),
-            ]),
-        Topic(
-            title: "Controls", icon: "gamecontroller.fill",
-            children: [
-                Topic(title: "Menu", icon: "filemenu.and.selection"),
-                Topic(title: "Link", icon: "link"),
-                Topic(title: "Navigation Link", icon: "link.icloud.fill"),
+                Topic("Button", icon: "plus.app"),
+                Topic("Edit Button", icon: "square.and.pencil"),
+                Topic("Paste Button", icon: "doc.on.clipboard.fill"),
             ]),
         Topic(
-            title: "Value Selectors", icon: "hand.point.up.braille.fill",
+            "Controls", icon: "gamecontroller.fill",
             children: [
-                Topic(title: "Toggle", icon: "switch.2"),
-                Topic(title: "Picker", icon: "filemenu.and.cursorarrow"),
-                Topic(title: "Date Picker", icon: "calendar"),
-                Topic(title: "Slider", icon: "slider.horizontal.3"),
-                Topic(title: "Stepper", icon: "minus.slash.plus"),
-                Topic(title: "Color Picker", icon: "eyedropper.halffull"),
+                Topic("Menu", icon: "filemenu.and.selection"),
+                Topic("Link", icon: "link"),
+                Topic("Navigation Link", icon: "link.icloud.fill"),
             ]),
         Topic(
-            title: "Value Indicator", icon: "location",
+            "Value Selectors", icon: "hand.point.up.braille.fill",
             children: [
-                Topic(title: "Label", icon: "tag.fill"),
-                Topic(title: "Progress View", icon: "percent"),
-                Topic(title: "Gauge", icon: "gauge"),
+                Topic("Toggle", icon: "switch.2"),
+                Topic("Picker", icon: "filemenu.and.cursorarrow"),
+                Topic("Date Picker", icon: "calendar"),
+                Topic("Slider", icon: "slider.horizontal.3"),
+                Topic("Stepper", icon: "minus.slash.plus"),
+                Topic("Color Picker", icon: "eyedropper.halffull"),
+            ]),
+        Topic(
+            "Value Indicator", icon: "location",
+            children: [
+                Topic("Label", icon: "tag.fill"),
+                Topic("Progress View", icon: "percent"),
+                Topic("Gauge", icon: "gauge"),
             ]),
     ]
 
@@ -64,14 +90,14 @@ struct TopicsListView: View {
         NavigationView {
             #if os(macOS)
                 List(topics, children: \.children) { topic in
-                    Label(topic.title, systemImage: topic.icon)
+                    TopicLinkView(topic: topic)
                 }
                 .listStyle(SidebarListStyle())
                 .navigationTitle("Cheatsheet")
-                
+
             #else
                 List(topics, children: \.children) { topic in
-                    Label(topic.title, systemImage: topic.icon)
+                    TopicLinkView(topic: topic)
                 }
                 .listStyle(InsetGroupedListStyle())
                 .navigationTitle("Cheatsheet")

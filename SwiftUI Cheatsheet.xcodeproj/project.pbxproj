@@ -14,6 +14,8 @@
 		FA18001425D698EC00316DDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA18FFFF25D698EC00316DDE /* Assets.xcassets */; };
 		FA18001525D698EC00316DDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA18FFFF25D698EC00316DDE /* Assets.xcassets */; };
 		FA18002925D699C100316DDE /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = FA18002825D699C100316DDE /* README.md */; };
+		FA18003C25D6B66200316DDE /* TextTopicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA18003B25D6B66200316DDE /* TextTopicView.swift */; };
+		FA18003D25D6B66200316DDE /* TextTopicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA18003B25D6B66200316DDE /* TextTopicView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,7 @@
 		FA18000E25D698EC00316DDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA18000F25D698EC00316DDE /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		FA18002825D699C100316DDE /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		FA18003B25D6B66200316DDE /* TextTopicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextTopicView.swift; sourceTree = "<group>"; };
 		FA18FFFD25D698E900316DDE /* CheatsheetApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheatsheetApp.swift; sourceTree = "<group>"; };
 		FA18FFFE25D698E900316DDE /* TopicsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicsListView.swift; sourceTree = "<group>"; };
 		FA18FFFF25D698EC00316DDE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -72,6 +75,22 @@
 			path = macOS;
 			sourceTree = "<group>";
 		};
+		FA18003025D6B60800316DDE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FA18003125D6B61A00316DDE /* Texts */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FA18003125D6B61A00316DDE /* Texts */ = {
+			isa = PBXGroup;
+			children = (
+				FA18003B25D6B66200316DDE /* TextTopicView.swift */,
+			);
+			path = Texts;
+			sourceTree = "<group>";
+		};
 		FA18FFF725D698E900316DDE = {
 			isa = PBXGroup;
 			children = (
@@ -86,6 +105,7 @@
 		FA18FFFC25D698E900316DDE /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				FA18003025D6B60800316DDE /* Views */,
 				FA18FFFD25D698E900316DDE /* CheatsheetApp.swift */,
 				FA18FFFE25D698E900316DDE /* TopicsListView.swift */,
 				FA18FFFF25D698EC00316DDE /* Assets.xcassets */,
@@ -193,6 +213,7 @@
 			files = (
 				FA18001225D698EC00316DDE /* TopicsListView.swift in Sources */,
 				FA18001025D698EC00316DDE /* CheatsheetApp.swift in Sources */,
+				FA18003C25D6B66200316DDE /* TextTopicView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,6 +223,7 @@
 			files = (
 				FA18001325D698EC00316DDE /* TopicsListView.swift in Sources */,
 				FA18001125D698EC00316DDE /* CheatsheetApp.swift in Sources */,
+				FA18003D25D6B66200316DDE /* TextTopicView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
